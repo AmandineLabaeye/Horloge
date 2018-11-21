@@ -12,9 +12,6 @@ section {
 #Point {
     width: 5px;
     height: 5px;
-    background-color: black;
-    border: black solid;
-    border-radius: 40px;
     position: absolute;
     margin-top: 107px;
     margin-left: 107px;
@@ -23,27 +20,26 @@ section {
 
 #Seconde {
     position: absolute;
-    background-image: url('AiguilleS.png');
-    width: 128px;
-    height: 128px;
-    bottom: -60px;
-    right: -60px;
+    background-color: red;
+    width: 100px;
+    height: 5px;
+    top: 3px;
+    left: 3px;
+    transform-origin: 0% 100%;
 }
 
 #Minute {
     position: absolute;
-    background-image: url("AiguilleM.png");
-    width: 128px;
-    height: 128px;
-    bottom: -60px;
-    right: -60px;
+    background-color: black;
+    width: 80px;
+    height: 5px;
+    transform-origin: 0% 100%;
 }
 
 #Heure {
     position: absolute;
-    background-image: url("AiguilleH.png");
-    width: 128px;
-    height: 128px;
-    bottom: -60px;
-    right: -60px;
+    background-color: black;
+    width: 60px;
+    height: 5px;
+    transform-origin: 0% 100%;
 }
