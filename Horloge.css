@@ -1,0 +1,49 @@
+section {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    background-image: url("Horloge.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 225px;
+    height: 225px;
+}
+
+#Point {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border: black solid;
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 107px;
+    margin-left: 107px;
+}
+
+
+#Seconde {
+    position: absolute;
+    background-image: url('AiguilleS.png');
+    width: 128px;
+    height: 128px;
+    bottom: -60px;
+    right: -60px;
+}
+
+#Minute {
+    position: absolute;
+    background-image: url("AiguilleM.png");
+    width: 128px;
+    height: 128px;
+    bottom: -60px;
+    right: -60px;
+}
+
+#Heure {
+    position: absolute;
+    background-image: url("AiguilleH.png");
+    width: 128px;
+    height: 128px;
+    bottom: -60px;
+    right: -60px;
+}
