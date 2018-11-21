@@ -1,5 +1,7 @@
 var now = new Date();
 
+console.log(now);
+
 var Temps = now.getSeconds() + 60 * now.getMinutes() + 3600 * now.getHours();
 
 var AiguilleS = document.getElementById("Seconde");
@@ -20,3 +22,10 @@ function Rotate () {
 
 Rotate();
 
+
+
+var H = document.getElementById("H");
+
+var M = document.getElementById("M");
+
+H.value; M.value;

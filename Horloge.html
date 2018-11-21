@@ -9,23 +9,41 @@
 
 <header>
 
-    <div id="Date"></div>
+    <div id="Date">
+
+        <h1> Horloge </h1>
+
+    </div>
 
 </header>
 
 <section>
 
     <div id="Point">
-
+        <div id="Aig">
         <div id="Heure"></div>
 
         <div id="Minute"></div>
 
         <div id="Seconde"></div>
-
+        </div>
     </div>
 
 </section>
+
+<footer>
+
+    <span> Programme ton alarme : </span>
+
+    <label><input id="H" type="number" min="0" max="24"> Heures </label>
+
+    <label><input id="M" type="number" min="0" max="60"> Minutes </label>
+
+    <button id="A" type="button"> Activer l'alarme </button>
+
+    <button id="Reset" type="button"> Reset </button>
+
+</footer>
 
 <script src="Horloge.js"></script>
 </body>
